@@ -3,6 +3,7 @@ import Statistics from './Statistics/Statistics';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import user from '../data/user.json';
 import data from '../data/data.json';
+import transactions from '../data/transactions.json'
 export const App = () => {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ export const App = () => {
           stats={user.stats}
       />
       <Statistics data={ data} />
-      <TransactionHistory/>
+      <TransactionHistory transactions={ transactions} />
     </div>
   );
 };

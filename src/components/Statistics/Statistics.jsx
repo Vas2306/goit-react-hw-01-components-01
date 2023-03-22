@@ -18,7 +18,12 @@ const Statistics = (props) => {
 };
 export default Statistics;
 
-PropTypes.shape({
+Statistics.prototype = {
+  
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
+  ).isRequired,
+};
