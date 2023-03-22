@@ -1,0 +1,28 @@
+.title {
+    text-transform: uppercase;
+    color: #1b1313;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.stat-list {
+    display: flex;
+    gap: 1px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 60px;
+    padding: 20px;
+
+    color: #fff;
+    background-color: rgb(33, 52, 103);
+}
+
+.label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
