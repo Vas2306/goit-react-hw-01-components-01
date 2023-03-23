@@ -1,6 +1,7 @@
-.transaction-history {
+.transactionHistory {
     width: 700px;
     margin:0 auto;
+    margin-bottom: 45px;
 }
 
 thead {
